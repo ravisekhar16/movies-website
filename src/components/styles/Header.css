@@ -1,0 +1,57 @@
+/* Header Container */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #111;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Logo */
+.logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #ff3d00;
+  cursor: pointer;
+}
+
+/* Controls Section */
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Search Input */
+.header-controls input {
+  padding: 8px 12px;
+  width: 250px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+/* Input Focus Effect */
+.header-controls input:focus {
+  box-shadow: 0 0 5px rgba(255, 61, 0, 0.7);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .header-controls input {
+    width: 100%;
+  }
+}

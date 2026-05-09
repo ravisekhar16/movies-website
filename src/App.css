@@ -1,0 +1,36 @@
+/* App Container */
+.app {
+  background-color: #0f172a;
+  min-height: 100vh;
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Movie Grid */
+.movies-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+/* Load More Button */
+.load-more-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.load-more-btn {
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.load-more-btn:hover {
+  background-color: #b20710;
+}

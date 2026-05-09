@@ -1,8 +1,15 @@
+// import { defineConfig } from 'vite'
+// import react from '@vitejs/plugin-react'
+
+// // https://vite.dev/config/
+// export default defineConfig({
+//   base:"/movies-website/",
+//   plugins: [react()],
+// })
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base:"/Movies-website/",
+  base: "/",
   plugins: [react()],
 })
